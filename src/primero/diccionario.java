@@ -3,6 +3,7 @@ package primero;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Scanner;
+
 public class diccionario {
 	
 		public static Scanner sc=new Scanner(System.in);
@@ -33,7 +34,7 @@ public static void main(String[] args) {
 			String palabra=sc.next();
 			System.out.println(getTraduccion(palabra));	
 			try {
-				System.out.println("Desea continuar? \n (0) si \n(1) no");
+				System.out.println("Desea continuar? \n(0) si \n(1) no");
 			cont=sc.nextInt();		
 		}catch (Exception e) {
 			System.out.println("Coloca 0/1 no otra cosa");
@@ -44,3 +45,4 @@ public static void main(String[] args) {
 	
 }
 }
+//hashmap cuya clave es un string y valor persona

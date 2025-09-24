@@ -49,7 +49,12 @@ public class persona {
 
 	@Override
 	public String toString() {
-		return "persona [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + "]";
+		return "\n[\nnombre:"
+	+ nombre + 
+	", \napellido:"
+	+ apellido + ", "
+	+ "\nedad:" + edad + 
+	"\n]\n";
 	}
 
 	@Override
