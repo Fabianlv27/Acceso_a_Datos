@@ -10,14 +10,14 @@ public class redondear {
 	}
 	
 	public static double truncar(double n,int digitos) {
-		int exponente=(int)Math.pow(10,digitos);
-		System.out.println(exponente + n);
-		int truncado1=(int)(n*exponente);
-		System.out.println(truncado1);
-		double truncado2=(double)truncado1/exponente;
-		return truncado2;
+		double exponente=(double)Math.pow(10,digitos);
+		double truncado=(int)(n*exponente)/exponente;
+		return truncado;
 	}
 	public static void main(String[] args) {
 		System.out.println(truncar(18.246,2));
 	}
 }
+//clase abstracta figura geometrica cuyo
+//atributos sean: dato 1(double),
+//dos metodos abstractos area y perimetro;

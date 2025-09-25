@@ -41,8 +41,9 @@ public class rectangulo extends FiguraGeometrica {
 
 	@Override
 	public String toString() {
-		return "rectangulo [dato2=" + dato2 + "]";
+		return "\nrectangulo [lado mayor ->"+dato1+ ", lado menor ->" + dato2 + "]";
 	}
+	
 	
 
 }
