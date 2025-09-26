@@ -54,7 +54,9 @@ public static void PedirLiteral() {
 			}
 		
 		break;
-		}
+		}   
+				
+		
 		case 2: {
 			if(!Figuras_para_Mostrar.contains("rectangulo")) {
 				Figuras_para_Mostrar.add("rectangulo");
@@ -187,6 +189,13 @@ public static void main(String[] args) {
 	
 }
 }
+
+
+//nos pida la nota del 1er trimestre y la final q queremos alcanzar
+//queremos saber que nota tenemos que sacar en el el segundo
+//para obtener la final, teniendo en cuenta que la nota del
+//primero cuenta un 40%
+
 //añadir, listar,pedir y literal al cual accederemos
 //y pondremos ,rect,circulo
 //de tal manera que nos muestre esas figuras,salir.
