@@ -77,5 +77,6 @@ public class jugadores {
 		Separar_Equipos();
 	}
 	
-	//leer una sola vez el fichero y nos cree para cada equipo que hay en ese fichero 
+	//leer una sola vez el fichero y nos cree para cada equipo que 
+	//hay en ese fichero 
 }
